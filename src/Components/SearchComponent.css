@@ -1,0 +1,31 @@
+.search-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+  margin: 20px auto;
+}
+
+.search-container input {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.search-container button {
+  padding: 8px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.search-container button:disabled {
+  background-color: #ccc;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}

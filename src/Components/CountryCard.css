@@ -1,0 +1,40 @@
+.country-card {
+  background-color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.country-card:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.country-card img {
+  width: 5rem;
+  height: 3rem;
+  border-radius: 0.25rem;
+}
+
+.country-card h2 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+
+.country-card p {
+  font-size: 0.875rem;
+  color: #4b5563; /* Tailwind's text-gray-600 */
+  margin-top: 0.25rem;
+}
+
+.country-card .local-time {
+  font-size: 0.875rem;
+  font-weight: 500;
+  margin-top: 0.25rem;
+}
